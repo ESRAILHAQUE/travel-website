@@ -1,0 +1,231 @@
+/* Shared style */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+.btn-primary {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1.25rem;
+  font-weight: 800;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  margin-top: 30px;
+}
+.section-header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.section-header .section-title {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.section-header .section-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Header section style start */
+header,
+main {
+  margin: 50px 135px;
+}
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+.logo-section img {
+  margin-right: 20px;
+}
+h2 > .hero {
+  color: #131318;
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+h2 > .Travel {
+  color: #ff5400;
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.nav-area ul {
+  display: flex;
+}
+.nav-area ul li {
+  list-style-type: none;
+  margin-right: 35px;
+}
+.nav-area ul li a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.nav-area ul li a > span {
+  color: #ff5400;
+  font-weight: 700;
+}
+/* Banner section style  */
+.banner-section {
+  background-image: url(Images/Group\ 13.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  border-radius: 14px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  background-size: cover auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner-description {
+  color: #fff;
+  margin: 20px 140px;
+  font-weight: 400;
+}
+
+.input-container {
+  border-radius: 8px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.input-container input[type="text"] {
+  border-radius: 8px;
+  background: #fff;
+  padding: 12px;
+  gap: 24px;
+  color: rgba(19, 19, 24, 0.5);
+  border: none;
+}
+.btn-input {
+  border-radius: 8px;
+  background: #ff5400;
+  padding: 12px 20px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+.btn-input i {
+  margin-right: 10px;
+}
+form > input,
+button {
+  margin-right: 24px;
+}
+
+/* Tour section style start */
+.tour-section {
+  display: flex;
+  justify-content: space-between;
+}
+.tour-content {
+  margin-right: 30px;
+}
+.tour-title {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.tour-description,
+ul li {
+  color: rgba(19, 19, 24, 0.7);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.tour-final-description {
+  color: #5a5a5d;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.all-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-container {
+  position: relative;
+  margin: 10px;
+}
+
+.image-container img {
+  object-fit: cover;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 1.7rem;
+}
+
+/* Choose us section style */
+.card-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.card-description {
+  color: #5a5a5d;
+  font-weight: 400;
+}
+.card-container1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.card-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1 {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 1rem;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.card2 {
+  padding: 10px;
+  border-radius: 1rem;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.card3 {
+  padding: 10px;
+  width: 573px;
+  height: 184px;
+  flex-shrink: 0;
+  border-radius: 1rem;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
