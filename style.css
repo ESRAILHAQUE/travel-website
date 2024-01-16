@@ -482,6 +482,9 @@ footer {
   .nav-area ul {
     display: none;
   }
+  nav{
+    margin-bottom: 0;
+  }
   .fa-bars {
     display: inline;
     font-size: 40px;
