@@ -28,6 +28,7 @@
   color: #131318;
   font-size: 2.25rem;
   font-weight: 800;
+  margin-bottom: 20px;
 }
 .section-header .section-description {
   color: rgba(19, 19, 24, 0.7);
@@ -283,12 +284,12 @@ ul li {
   color: #131318;
   font-size: 1.5rem;
   font-weight: 800;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 .hotel-description {
   color: #5a5a5d;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .hotel-price {
   color: #ff5400;
@@ -475,6 +476,9 @@ footer {
   main {
     margin: 10px 20px;
   }
+  footer{
+    padding: 0 15px;
+  }
   .nav-area ul {
     display: none;
   }
@@ -482,8 +486,7 @@ footer {
     display: inline;
     font-size: 40px;
   }
-  h2 > .hero,
-  .Travel {
+  h2> .hero,h2 > .Travel  {
     font-size: 1.5rem;
   }
   .banner-section {
@@ -492,11 +495,11 @@ footer {
   .banner-section .banner-title,
   .banner-description {
     width: 100%;
-    margin: 30px;
-    margin: 0 auto;
+    margin: 15px auto;
+    
   }
   .banner-title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   .input-container form {
     margin-top: 10px;
@@ -539,7 +542,7 @@ footer {
   .hotel-info,
   .second-hotel {
     width: 200px;
-    height: 350px;
+   height: 300px;
     bottom: 30px;
     left: 0;
     right: 0;
@@ -551,11 +554,14 @@ footer {
     bottom: 35px;
   }
   .hotel .img img {
-    height: 500px;
+    height: 450px;
+    background-size: cover;
     width: 100%;
   }
   .perfect-section {
     flex-direction: column;
+    text-align: center;
+    padding: 0 10px;
   }
   .perfect-video img {
     width: 100%;
