@@ -515,6 +515,7 @@ footer {
   .tour-section {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   .tour-img img {
     width: 100%;
