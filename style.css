@@ -234,7 +234,7 @@ ul li {
 }
 .card3 {
   padding: 10px;
-  width: 573px;
+  width: 500px;
   height: 184px;
   flex-shrink: 0;
   border-radius: 1rem;
@@ -255,7 +255,7 @@ ul li {
 .hotel-info {
   border-radius: 16px;
   width: 400px;
-  right: 30px;
+  right: 50px;
   bottom: 55px;
   height: 280px;
   position:absolute;
@@ -265,7 +265,7 @@ ul li {
   backdrop-filter: blur(2.5px);
 }
 .second-hotel{
-left: 30px;
+left: 50px;
 bottom: 55px;
 }
 .hotel-info span {
