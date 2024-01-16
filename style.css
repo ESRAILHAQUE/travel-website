@@ -464,7 +464,7 @@ footer {
   display: inline;
   font-size: 40px;
 }
-h2 > .hero .Travel {
+h2 > .hero ,.Travel {
   font-size: 1.5rem;
 }
   .banner-title{
