@@ -473,7 +473,7 @@ footer {
 @media screen and (max-width: 600px) {
   header,
   main {
-    margin: 10px;
+    margin: 10px 20px;
   }
   .nav-area ul {
     display: none;
