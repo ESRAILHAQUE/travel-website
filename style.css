@@ -36,7 +36,6 @@
 }
 /* Shared style End */
 
-
 /* Header section style start */
 header,
 main {
@@ -84,11 +83,10 @@ nav {
   color: #ff5400;
   font-weight: 700;
 }
-.fa-bars{
+.fa-bars {
   display: none;
 }
 /* Nav section style End */
-
 
 /* Banner section style start */
 .banner-section {
@@ -151,8 +149,6 @@ button {
 /* Banner section style  End */
 /* Header sectin style End */
 
-
-
 /* Tour section style start */
 .tour-section {
   display: flex;
@@ -161,7 +157,7 @@ button {
 .tour-content {
   margin-right: 30px;
 }
-.tour-title{
+.tour-title {
   color: #131318;
   font-size: 2.25rem;
   font-weight: 800;
@@ -179,7 +175,6 @@ ul li {
   margin-bottom: 10px;
 }
 /* Tour section style End */
-
 
 /* Destination section style start */
 .all-img {
@@ -206,7 +201,6 @@ ul li {
   font-size: 1.7rem;
 }
 /* Destination section style End */
-
 
 /* Choose us section style Start */
 .card-title {
@@ -246,17 +240,15 @@ ul li {
   /* width: 500px;
   height: 184px; */
   width: 50%;
- 
+
   border-radius: 1rem;
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
 }
 /* Choose us section style End */
 
-
-
 /* discount section style start */
-.hotel{
+.hotel {
   position: relative;
   margin-bottom: 30px;
 }
@@ -270,15 +262,15 @@ ul li {
   right: 50px;
   bottom: 55px;
   height: 280px;
-  position:absolute;
+  position: absolute;
   padding: 20px;
   border: 2px solid #fff;
-  background: rgba(255, 255, 255, 0.80);
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
 }
-.second-hotel{
-left: 50px;
-bottom: 55px;
+.second-hotel {
+  left: 50px;
+  bottom: 55px;
 }
 .hotel-info span {
   margin-right: 20px;
@@ -300,15 +292,13 @@ bottom: 55px;
 }
 .hotel-price {
   color: #ff5400;
-  font-size:1.25rem;
+  font-size: 1.25rem;
   font-weight: 800;
 }
-.pakage-btn{
+.pakage-btn {
   text-align: center;
 }
 /* Discount section style End */
-
-
 
 /* Perfect section style start */
 .perfect-section {
@@ -334,7 +324,6 @@ bottom: 55px;
   font-weight: 700;
 }
 /* Perfect section style End */
-
 
 /* News section style start */
 .news-section {
@@ -404,7 +393,37 @@ bottom: 55px;
 }
 /* News section styole End */
 
-
+/* service section style */
+.service-section {
+  margin: 50px 0;
+}
+.catarogy {
+  color: #df6951;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.service-title {
+  color: #181e4b;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.all-service {
+  display: flex;
+  justify-content: space-around;
+}
+.service-item {
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 2px 2px 2px 2px  #eddddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
 /* Footer section style */
 footer {
   background: rgba(19, 19, 24, 0.05);
@@ -449,94 +468,105 @@ footer {
 }
 /* Footer section style End */
 
-
-
 /* Responsive Design */
 /* For small device or less 600 */
-@media screen and (max-width:600px) {
-  header,main{
+@media screen and (max-width: 600px) {
+  header,
+  main {
     margin: 10px;
   }
- .nav-area ul{
-  display: none;
- }
- .fa-bars{
-  display: inline;
-  font-size: 40px;
-}
-h2 > .hero ,.Travel {
-  font-size: 1.5rem;
-}
-.banner-section{
-  height: 100vh;
-}
-.banner-section .banner-title , .banner-description{
-  width: 100%;
-  margin: 0 auto;
-}
-  .banner-title{
+  .nav-area ul {
+    display: none;
+  }
+  .fa-bars {
+    display: inline;
+    font-size: 40px;
+  }
+  h2 > .hero,
+  .Travel {
     font-size: 1.5rem;
   }
-  .input-container form{
+  .banner-section {
+    height: 100vh;
+  }
+  .banner-section .banner-title,
+  .banner-description {
+    width: 100%;
+    margin: 30px;
+    margin: 0 auto;
+  }
+  .banner-title {
+    font-size: 1.5rem;
+  }
+  .input-container form {
+    margin-top: 10px;
     flex-direction: column;
   }
-  .input-container form input,button{
+  .input-container form input,
+  button {
     margin-bottom: 10px;
   }
-  .tour-section{
+  .tour-section {
     display: flex;
     flex-direction: column;
   }
-  .tour-img img{
+  .tour-img img {
     width: 100%;
   }
-  .all-img{
+  .all-img {
     display: flex;
     flex-direction: column;
   }
-  .image-container img{
+  .image-container img {
     width: 100%;
     height: 100%;
   }
-  .card1{
+  .card1 {
     margin-bottom: 10px;
   }
   .card-container1 {
     flex-direction: column;
   }
 
-  .card3{
+  .card3 {
     width: 100%;
   }
-  .hotel{
+  .hotel {
     display: flex;
     flex-direction: column;
   }
-  
-.hotel-info ,.second-hotel {
-  width: 200px;
-  height: 350px;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
 
-}
+  .hotel-info,
+  .second-hotel {
+    width: 200px;
+    height: 350px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
 
-  .hotel .img img{
+  .discount {
+    width: 200px;
+    bottom: 35px;
+  }
+  .hotel .img img {
     height: 500px;
     width: 100%;
   }
-  .perfect-section{
+  .perfect-section {
     flex-direction: column;
   }
-  .perfect-video img{
+  .perfect-video img {
     width: 100%;
   }
-  .news-section{
+  .news-section {
     flex-direction: column;
   }
-  .news-img img{
+  .news-img img {
     width: 100%;
+  }
+  .all-service {
+    flex-direction: column;
   }
 }
