@@ -512,9 +512,6 @@ footer {
   .nav-area ul {
     display: none;
   }
-  nav{
-    margin-bottom: 0;
-  }
   .fa-bars {
     display: inline;
     font-size: 40px;
@@ -523,7 +520,7 @@ footer {
     font-size: 1.5rem;
   }
   .banner-section {
-    height: 100vh;
+    height: 90vh;
   }
   .banner-section .banner-title,
   .banner-description {
@@ -624,9 +621,6 @@ footer {
   }
   .nav-area ul {
     display: none;
-  }
-  nav{
-    margin-bottom: 0;
   }
   
   h2> .hero,h2 > .Travel  {
