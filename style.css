@@ -182,7 +182,12 @@ ul li {
   display: flex;
   justify-content: space-around;
 }
-
+.all-img .image-container img{
+  transition: opacity 0.3s ease-in-out;
+}
+.all-img .image-container:hover {
+  opacity: 0.9;
+}
 .image-container {
   position: relative;
   margin: 10px;
