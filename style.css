@@ -37,7 +37,6 @@
 }
 /* Shared style End */
 
-
 /* Header section style start */
 header,
 main {
@@ -60,7 +59,6 @@ h2 > .Travel {
   font-size: 2.1rem;
   font-weight: 800;
 }
-
 
 /* Nav section style start */
 nav {
@@ -90,7 +88,6 @@ nav {
   display: none;
 }
 /* Nav section style End */
-
 
 /* Banner section style start */
 .banner-section {
@@ -153,7 +150,6 @@ button {
 /* Banner section style  End */
 /* Header sectin style End */
 
-
 /* Tour section style start */
 .tour-section {
   display: flex;
@@ -181,7 +177,6 @@ ul li {
 }
 /* Tour section style End */
 
-
 /* Destination section style start */
 .all-img {
   display: flex;
@@ -207,7 +202,6 @@ ul li {
   font-size: 1.7rem;
 }
 /* Destination section style End */
-
 
 /* Choose us section style Start */
 .card-title {
@@ -253,7 +247,6 @@ ul li {
   background: rgba(233, 68, 68, 0.05);
 }
 /* Choose us section style End */
-
 
 /* discount section style start */
 .hotel {
@@ -308,7 +301,6 @@ ul li {
 }
 /* Discount section style End */
 
-
 /* Perfect section style start */
 .perfect-section {
   display: flex;
@@ -332,35 +324,38 @@ ul li {
   color: #131318;
   font-weight: 700;
 }
-.play-upper{
+.play-upper {
   display: flex;
   justify-content: space-between;
 }
-.perfect-video{
+.perfect-video {
   position: relative;
 }
-.play-upper span i{
+.play-upper span i {
   margin-right: 20px;
 }
-.play-upper{
+.play-upper {
   padding-right: 30px;
 }
-.video-controlor{
+.video-controlor {
   position: absolute;
-  color: #FFF;
+  color: #fff;
   width: 100%;
   margin: 15px;
   bottom: 20px;
 }
-.video-controlor .video-title{
-text-align: center;
-align-items: center;
-margin-bottom: 150px;
-font-size: 1.5rem;
-font-weight: 700;
+.video-controlor .video-title {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 150px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.play-control .play-line img{
+  width: 95%;
+  text-align: center;
 }
 /* Perfect section style End */
-
 
 /* News section style start */
 .news-section {
@@ -430,7 +425,6 @@ font-weight: 700;
 }
 /* News section styole End */
 
-
 /* service section style */
 .service-section {
   margin: 50px 0;
@@ -457,12 +451,11 @@ font-weight: 700;
 .service-item {
   border-radius: 1rem;
   background: #fff;
-  box-shadow: 2px 2px 2px 2px  #eddddd;
+  box-shadow: 2px 2px 2px 2px #eddddd;
   padding: 10px;
   margin: 10px;
   text-align: center;
 }
-
 
 /* Footer section style */
 footer {
@@ -508,7 +501,6 @@ footer {
 }
 /* Footer section style End */
 
-
 /* Responsive Design */
 /* For small device or less 600 */
 @media screen and (max-width: 600px) {
@@ -516,12 +508,22 @@ footer {
   main {
     margin: 10px 20px;
   }
-  footer{
+  footer {
     padding: 0 15px;
   }
-  .video-controlor .video-title{
-    margin-bottom: 100px;
-    }
+  .video-controlor .video-title {
+    margin-bottom: 50px;
+    font-size: 1rem;
+  }
+  .video-controlor {
+    bottom: 5px;
+  }
+ .play-upper {
+  margin-left: 25px;
+}
+  .play-control .play-line img{
+    width: 90%;
+  }
   .nav-area ul {
     display: none;
   }
@@ -529,7 +531,8 @@ footer {
     display: inline;
     font-size: 40px;
   }
-  h2> .hero,h2 > .Travel  {
+  h2 > .hero,
+  h2 > .Travel {
     font-size: 1.5rem;
   }
   .banner-section {
@@ -539,7 +542,6 @@ footer {
   .banner-description {
     width: 100%;
     margin: 15px auto;
-    
   }
   .banner-title {
     font-size: 1.7rem;
@@ -586,7 +588,7 @@ footer {
   .hotel-info,
   .second-hotel {
     width: 200px;
-   height: 300px;
+    height: 300px;
     bottom: 30px;
     left: 0;
     right: 0;
@@ -610,6 +612,9 @@ footer {
   .perfect-video img {
     width: 100%;
   }
+  .play-line img {
+    margin-right: 10px;
+  }
   .news-section {
     flex-direction: column;
   }
@@ -621,24 +626,25 @@ footer {
   }
 }
 
-
 /* Responsive For medium device */
-@media screen and (min-width:600px) and (max-width:992px) {
-  .banner-section{
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .banner-section {
     margin-top: 0;
     border-radius: 10px;
   }
-  header,main{
+  header,
+  main {
     margin: 50px;
   }
-  footer{
+  footer {
     padding: 0 15px;
   }
   .nav-area ul {
     display: none;
   }
-  
-  h2> .hero,h2 > .Travel  {
+
+  h2 > .hero,
+  h2 > .Travel {
     font-size: 1.5rem;
   }
   .fa-bars {
@@ -653,7 +659,6 @@ footer {
   .banner-description {
     width: 100%;
     margin: 15px auto;
-    
   }
   .banner-title {
     font-size: 1.7rem;
@@ -674,7 +679,7 @@ footer {
   .tour-img img {
     width: 100%;
   }
-  
+
   .all-img {
     display: flex;
     flex-direction: column;
@@ -701,13 +706,13 @@ footer {
   .hotel-info,
   .second-hotel {
     width: 200px;
-   height: 300px;
+    height: 300px;
     bottom: 30px;
     left: 0;
     right: 0;
     margin: 0 auto;
   }
-  
+
   .discount {
     width: 200px;
     bottom: 35px;
@@ -725,27 +730,32 @@ footer {
   .perfect-video img {
     width: 100%;
   }
-  
+
   .news-section {
     flex-direction: column;
   }
   .news-img img {
     width: 100%;
   }
+  .play-control .play-line img{
+    width: 95%;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  .play-upper{
+    margin-left: 12px;
+  }
   .all-service {
     flex-direction: column;
   }
-  
 }
-
 
 /* Responsive for large device */
-@media screen and (min-width:992px) and (max-width:1200px) {
-
+@media screen and (min-width: 992px) and (max-width: 1200px) {
   header,
-main {
-  margin: 50px 100px;
-}
+  main {
+    margin: 50px 100px;
+  }
   .tour-section {
     display: flex;
     flex-direction: column;
@@ -763,7 +773,7 @@ main {
     width: 100%;
     height: 100%;
   }
-  
+
   .hotel {
     display: flex;
     flex-direction: column;
@@ -772,13 +782,13 @@ main {
   .hotel-info,
   .second-hotel {
     width: 300px;
-   height: 300px;
+    height: 300px;
     bottom: 30px;
     left: 0;
     right: 0;
     margin: 0 auto;
   }
-  
+
   .discount {
     width: 200px;
     bottom: 35px;
@@ -788,7 +798,7 @@ main {
     background-size: cover;
     width: 100%;
   }
-  
+
   .perfect-section {
     flex-direction: column;
     text-align: center;
@@ -798,7 +808,7 @@ main {
     margin-top: 15px;
     width: 100%;
   }
-  
+
   .news-section {
     flex-direction: column;
   }
@@ -807,6 +817,6 @@ main {
   }
   .all-service {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
