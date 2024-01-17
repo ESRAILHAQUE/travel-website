@@ -324,6 +324,33 @@ ul li {
   color: #131318;
   font-weight: 700;
 }
+.play-upper{
+  display: flex;
+  justify-content: space-between;
+}
+.perfect-video{
+  position: relative;
+}
+.play-upper span i{
+  margin-right: 20px;
+}
+.play-upper{
+  padding-right: 30px;
+}
+.video-controlor{
+  position: absolute;
+  color: #FFF;
+  width: 100%;
+  margin: 15px;
+  bottom: 20px;
+}
+.video-controlor .video-title{
+text-align: center;
+align-items: center;
+margin-bottom: 150px;
+font-size: 1.5rem;
+font-weight: 700;
+}
 /* Perfect section style End */
 
 /* News section style start */
@@ -479,6 +506,9 @@ footer {
   footer{
     padding: 0 15px;
   }
+  .video-controlor .video-title{
+    margin-bottom: 100px;
+    }
   .nav-area ul {
     display: none;
   }
