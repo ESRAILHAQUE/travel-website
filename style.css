@@ -37,6 +37,7 @@
 }
 /* Shared style End */
 
+
 /* Header section style start */
 header,
 main {
@@ -59,6 +60,7 @@ h2 > .Travel {
   font-size: 2.1rem;
   font-weight: 800;
 }
+
 
 /* Nav section style start */
 nav {
@@ -88,6 +90,7 @@ nav {
   display: none;
 }
 /* Nav section style End */
+
 
 /* Banner section style start */
 .banner-section {
@@ -150,6 +153,7 @@ button {
 /* Banner section style  End */
 /* Header sectin style End */
 
+
 /* Tour section style start */
 .tour-section {
   display: flex;
@@ -177,6 +181,7 @@ ul li {
 }
 /* Tour section style End */
 
+
 /* Destination section style start */
 .all-img {
   display: flex;
@@ -202,6 +207,7 @@ ul li {
   font-size: 1.7rem;
 }
 /* Destination section style End */
+
 
 /* Choose us section style Start */
 .card-title {
@@ -247,6 +253,7 @@ ul li {
   background: rgba(233, 68, 68, 0.05);
 }
 /* Choose us section style End */
+
 
 /* discount section style start */
 .hotel {
@@ -301,6 +308,7 @@ ul li {
 }
 /* Discount section style End */
 
+
 /* Perfect section style start */
 .perfect-section {
   display: flex;
@@ -352,6 +360,7 @@ font-size: 1.5rem;
 font-weight: 700;
 }
 /* Perfect section style End */
+
 
 /* News section style start */
 .news-section {
@@ -421,6 +430,7 @@ font-weight: 700;
 }
 /* News section styole End */
 
+
 /* service section style */
 .service-section {
   margin: 50px 0;
@@ -452,6 +462,8 @@ font-weight: 700;
   margin: 10px;
   text-align: center;
 }
+
+
 /* Footer section style */
 footer {
   background: rgba(19, 19, 24, 0.05);
@@ -495,6 +507,7 @@ footer {
   padding: 50px 0 100px;
 }
 /* Footer section style End */
+
 
 /* Responsive Design */
 /* For small device or less 600 */
@@ -607,6 +620,8 @@ footer {
     flex-direction: column;
   }
 }
+
+
 /* Responsive For medium device */
 @media screen and (min-width:600px) and (max-width:992px) {
   .banner-section{
@@ -722,6 +737,7 @@ footer {
   }
   
 }
+
 
 /* Responsive for large device */
 @media screen and (min-width:992px) and (max-width:1200px) {
